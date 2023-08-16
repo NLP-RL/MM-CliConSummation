@@ -1,0 +1,164 @@
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,29211,,,,,,,
+"Hi doctor, I am dealing with Plugged feeling in ear. I feel very annoyed by this. Please, let me know its cause.","I can understand your concerns. Let me ask you some questions, have you observed any Diminished hearing?",O O O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O O O O O O O O O O O O O O O O ,,,Conductive hearing loss,"The conversation is between a patient and a doctor regarding the patient's plugged feeling in the ear. The doctor asks questions to understand the symptoms, which include diminished hearing, ear pain, redness in the ear, and occasional dizziness. Based on these symptoms, the doctor identifies conductive hearing loss as the likely cause of the issue.","The patient's main medical concern is a plugged feeling in the ear with associated ear pain, diminished hearing, redness in the ear, and occasional dizziness.","The doctor suspects conductive hearing loss based on symptoms of plugged feeling, diminished hearing, ear pain, redness in the ear, and occasional dizziness."
+"I think so, doctor.","Ok, do you feel Ear pain?",O O O O O O O,,,,,,
+"Yes, I have got Ear pain. It is not letting me sleep.",That must be very painful. Have you seen any Redness in ear? Please show me your ears.,O O O O O B-Symptom I-Symptom O O O O O O O O,,,,,,
+"Please take a look at it, $S22_3_1.jpg$.  ",I see there is slight redness. Do you feel Dizziness?,O O O O O O O B-Symptom O ,Redness in ear,Mild,,,,
+"Sometimes, I do feel it.",I think your symptoms is pointing towards Conductive hearing loss.,O O O O O O O,,,,,,
+"Disease: Conductive hearing loss, Group: 7",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,16512,,,,,,,
+"Hello doctor, I have got an Allergic reaction to my skin. Please treat it. I can't go outside because of this as I feel ashamed of it.","I understand your situation. Even I’d feel the same way you do in your situation. So, tell me, is you suffering from Skin rash?",O O O O O O O B-Symptom I-Symptom O O O O O O O O O O O O O O O O O O O O O O ,,,Drug reaction,"The patient is seeking treatment for an allergic reaction on the patient's skin, which has caused rash, dizziness, nausea, and shortness of breath. The doctor identifies the issue as a drug reaction and assures the patient that the patient will provide medication to relieve the symptoms.","The patient is experiencing an allergic reaction to the patient's skin and has additional symptoms like dizziness, nausea, and shortness of breath due to a drug reaction.","Doctor diagnoses patient with drug reaction based on symptoms and offers medication to relieve skin rash, dizziness, nausea, and shortness of breath."
+"I don't know please have look at it $S31_2_14.jpg$. Please, suggest to me a solution to relieve it.","Definitely, I will. I am awis of how itchy feelings can be troublesome sometimes. Please answer. Do you feel Dizziness?",O O O O O O O O B-Symptom O O O O O O O O O O O O ,Skin rash,Severe,,,,
+"Literally, I am suffering from it.","Fine, do you have Nausea too?",O O O O O O O O,,,,,,
+"True. I am suffering from Nausea. I feel disgusted as after vomiting, my body smells stingy. What can I do to cure it?","I agree; you must have felt annoyed because of that smell. I will provide medication accordingly. So, do not take tension about that. And, is you also suffering from Shortness of breath?",O O O O O O B-Symptom O O O O O O O O O O O O O O O O O O O O O ,,,,,,
+"Nowadays, I am having Shortness of breath problem.","Per the symptoms, you have Drug reaction problem.",O O O O O B-Symptom I-Symptom I-Symptom O O,,,,,,
+"Disease: Drug reaction, Group: 19",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,15191,,,,,,,
+"Doctor, I some problem in my eyes, see $S5_3_14.jpg$. I do not know why this has happened. Please help.
+","I see there is slight redness under the lower eyelid. Let me investigate its cause first so I can help you in the best way possible. Tell me, have you got a Mass on eyelid?",O O O O O O O O O O B-Symptom O O O O O O O O O O O O O ,Eye Redness,Mild,Chalazion,"Overall, the conversation is about a patient seeking help from a doctor regarding the patient's eye redness, which is accompanied by a mass on the right upper eyelid, hindering the patient's vision, swollen eye, eyelid swelling, eyelid lesion or rash, and itchiness of the eye. After investigating the cause of these symptoms, the doctor suggests that the patient might have Chalazion.","Patient's key medical concern is Eye Redness and related symptoms like mass on eyelid, swollen eye, eyelid lesion/rash and itchiness.",The doctor investigates the patient's symptoms and suspects the patient may have Chalazion.
+"True, mass is present on my right upper eyelid and hinders my vision.",I can understand mass on the upper eyelid creates a hindrance to vision. Let me know whether you is suffering from Swollen eye.,O O O O O O O O O O O O O O O O,,,,,,
+"Exactly, I have got Swollen eye.",Is your Eyelid swelling?,O O O O O B-Symptom I-Symptom O,,,,,,
+"Literally, I am struggling with Eyelid swelling.",Have you got Eyelid lesion or rash?,O O O O  O O B-Symptom I-Symptom  O,,,,,,
+"So true, I have got Eyelid lesion or rash.",Have you felt Itchiness of eye?,O O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O,,,,,,
+"Yes, l am sick of rubbing the eye. Still, the itching sensation doesn't go away.","Per the symptoms analysis, you might have Chalazion.",O O O O O O O O O O O O O O O O O O O O,,,,,,
+"Disease: Chalazion, Group: 7",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,86,,,,,,,
+"Hi doctor, I have been down with Fever.","Fine, have you got Skin rash?",O O O O O O O O B-Symptom O,,,Chickenpox,"The patient is feeling unwell with a fever and has developed a skin rash. The doctor examines the patient's back and confirms that the rash is severe. The patient also reports clusters of itchy, fluid-filled blisters on the patient's hands, leading the doctor to diagnose them with chickenpox.","The main medical concern presented by the patient is a case of fever accompanied by a skin rash, particularly clusters of itchy, red, fluid-filled blisters all over the hand.",The doctor diagnoses the patient with Chickenpox after examining the patient's severe skin rash and clusters of fluid-filled blisters on the patient's hand.
+Please see $S31_1_36.jpg$. ,"I can see the condition on your back is severe. Your back is filled with rashes. No wonder you’re upset about it. I wish you didn’t have to go through that. I have a few more questions to ask. Tell me, have you seen Skin lesion?
+",O O B-Symptom O ,Skin rash,Severe,,,,
+"Right doctor, I have been suffering from clusters of itchy, red, fluid-filled blisters all over my hand. These blisters have further worsened my life as I am suffering from sleeplessness because of the irritation on my hand. Let me know how I can get rid of these blisters.",Your symptoms imply that you have Chickenpox.,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O,,,,,,
+"Disease: Chickenpox, Group: 1",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,18054,,,,,,,
+"Doctor, I have been suffering from Wrist swelling for the past four days. Becuase of it, I am not able to get adequate sleep. I often wake up in the middle of the night as I feel my wrist joint is on fire. It is intolerable. What should I do to deal with it? Please help.
+","It sounds like you is in a lot of pain there. Working with that hand must have been hard for you. I can understand that. Let me investigate further symptoms to identify the wrist swelling causes. So, tell me have you felt Foot or toe pain?","O O O O O O O B-Symptom I-Symptom O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+",,,Gout,"The conversation involves a patient seeking help for wrist swelling that has been affecting the patient's ability to sleep. The doctor inquires about other symptoms, including foot or toe pain and swelling, as well as ankle pain. The doctor suspects that the patient may have Gout disease.",The patient's main concern is wrist swelling causing pain and sleep disturbance.,"The doctor suspects the patient has Gout, based on the patient's symptoms of wrist and foot/toe swelling and pain, and plans to investigate further."
+"So true, I have trouble with it.",is you also suffering from Foot or toe swelling?,O O O O O O O O O,,,,,,
+"I don't know, see $S50_1_31.jpg$. ","I see foot inflammation is severe. You must be dealing with walking and standing issues. Tell me, do you have Ankle pain too?",O O O O O B-Symptom O,Foot or toe swelling,Severe,,,,
+"Indeed, I am suffering from it.",I think you have Gout.,O O O O O O O O O,,,,,,
+"Disease; Gout, Group: 13",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,4346,,,,,,,
+"Hi doctor, about seven days earlier, my cat licked my open wound while I was sleeping. Now, it has developed into an Arm lump or mass on the wound isa. What could be its cause? ","I guess your cat might be infected. Please, be awis that your cat doesn't scratch or lick your infected skin. To better know the lump cause, let me investigate further. Do you have Neck swelling too?",O O O O O O O O O O O O O O O O O O O O O O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O O O O O O O O O O O,,,,"The patient presents with a lump or mass on the patient's arm, which developed after the patient's cat licked an open wound. The doctor suspects the patient's cat might be infected and warns them to avoid further contact with the patient's infected skin. The doctor investigates further and asks about neck swelling, skin swelling, groin mass, skin rash, loss of sensation, arm swelling, and headache. Based on the symptoms, the doctor diagnoses the patient with cat scratch disease.",The patient's concern is a lump or mass on the patient's arm that developed after the patient's cat licked an open wound while the patient were sleeping.,"The doctor suspects that the patient may have cat scratch disease and asks about other symptoms such as neck swelling, skin swelling, groin mass, skin rash, loss of sensation, arm swelling, and headache."
+"Yes, I do have Neck swelling.","OK, have you got Skin swelling?",O O O O O B-Symptom I-Symptom O,,,,,,
+"You is totally right, doctor.",is you also suffering from Groin mass?,O O O O O O O,,,,,,
+"True, doctor.",Have you got Skin rash too?,O O O O,,,,,,
+"I am not confident. See $S31_2_13.jpg$. 
+",I see. Have you felt Loss of sensation?,O O O O O O B-Symptom O ,Skin rash,Moderate,Cat scratch disease,,,
+"Indeed, I am suffering from it.",Do you have Arm swelling?,O O O O O O O O,,,,,,
+"Yeah, I have got Arm swelling.",is you dealing with Headache too?,O O O O O B-Symptom I-Symptom O,,,,,,
+"Yes, I have Headache too.",You might have Cat scratch disease.,O O O O B-Symptom O O,,,,,,
+"Disease: Cat scratch disease, Group: 1",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,19534,,,,,,,
+"Hello doctor, I am dealing with Disturbance of memory.","Alright, have you got Depressive or psychotic symptoms?",O O O O O O O B-Symptom I-Symptom I-Symptom O,,,Factitious disorder,"The patient is speaking to a doctor about the patient's disturbance of memory and depressive symptoms, which the patient attribute to the loss of the patient's beloved dog. The doctor sympathizes with the patient but advises them that it's the natural course of life and encourages them to move on from the patient's depression. The doctor also inquires about other symptoms, such as paresthesia and lip swelling, and suggests that the patient may be experiencing factitious disorder.","The patient's key medical concern is disturbance of memory, and the patient are also dealing with depression, paresthesia, and lip swelling.","Doctor assesses patient's symptoms and suggests ways to cope with depression after the loss of a pet and checks for other physical symptoms, while suspecting a possible factitious disorder."
+For sure.,is you suffering from Depression too?,O O O,,,,,,
+"That is right. Since my beloved dog passed away, I have been going through Depression. It is hard to believe for me that he is not here. This is making me crazy. Doctor, please help me.","I'm sorry about your loss. Please understand it's the law of nature; everyone will die one day. Everyone feels the same way as you do in this situation. Life goes on, and you have to get out of depression. You can even adopt a new pet. Let me know if you have you got Pissthesia?",O O O O O O O O O O O O O O O O B-Symptom O O O O O O O O O O O O O O O O O O O O O O O O O O,,,,,,
+"Indeed, I am suffering from it.",Do you have Lip swelling?,O O O O O O O O,,,,,,
+"I am not sure, check it out $S51_1_19.jpg$.",You might have Factitious disorder.,O O O O O O O O B-Symptom O,Lip swelling,Severe,,,,
+"Disease: Factitious disorder, Group: 5",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,23450,,,,,,,
+"Good morning doctor, I have got Lacrimation issue. Please, let me know its cause.","I will for sure. Let me do proper investigation to know its cause. Tell me, do you have Eye redness too?",O O O O O O O B-Symptom O O O O O O O O O O,,,Corneal disorder,"The patient has approached the doctor with a lacrimation issue and requests to know the cause. The doctor suggests a proper investigation to determine the cause and asks if there is any eye redness. The patient displays eye redness, and the doctor concludes that it is due to a corneal disorder, placing it in the group 7 category.","The patient has lacrimation and possible eye redness, causing concern for a corneal disorder.",Doctor diagnoses a Corneal disorder causing Lacrimation and asks about patient's eye redness.
+I am not certain of it. Please have a look; $S5_3_28.jpg$.,I see. Based on your symptom you have Corneal disorder.,O O O O O O O O O O O O B-Symptom O,Eye redness,Mild,,,,
+"Disease: Corneal disorder, Group: 7",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,7456,,,,,,,
+"Doctor, I have something in my eyes. Please examine it, $S5_1_26.jpg$. Would you please let me know its cause? Is there something serious? ","I will for sure let you know what is wrong. However, first, let me investigate your bloodshot eye condition's root cause. Tell me, is you also dealing with Itchiness of eye?",O O O O O O O O O O O O O B-Symptom O O O O O O O O O O O O O O O,Eye redness,Severe,Conjunctivitis due to allergy,"The conversation is between a patient and a doctor regarding the patient having something in the patient's eyes and redness. The doctor asks further questions about itchiness, pain, and nasal congestion to investigate the root cause. The doctor concludes that the patient might have conjunctivitis due to allergy.","Patient has eye redness, itchiness, pain, and nasal congestion, which may indicate conjunctivitis due to allergy.",The doctor examines the patient's symptoms and determines the patient have conjunctivitis due to allergy.
+"True, doctor.",Have you felt Pain in eye?,O O O O,,,,,,
+"Literally, I am struggling with it.",Do you have Nasal congestion?,O O O O O O O O,,,,,,
+"True, I have got Nasal congestion.",You might have Conjunctivitis due to allergy.,O O O O O B-Symptom I-Symptom O,,,,,,
+"Disease: Conjunctivitis due to allergy, Group: 7",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,28630,,,,,,,
+"Hi doctor, please see $S31_1_1.jpg$.",is you also suffering from Acne or pimples?,O O O O O B-Symptom O,Skin rash,Severe,Dyshidrosis,"The patient complains of a skin rash and mentions having acne, pimples, frequent urination, and ankle pain. The doctor suspects the patient might have Dyshidrosis.","The patient's main medical concern is a skin rash with accompanying symptoms of acne, frequent urination, and ankle pain.",The doctor asks the patient about the patient's symptoms and determines that the patient may have Dyshidrosis.
+"Yes, doctor.",Have you got Frequent urination?,O O O O,,,,,,
+"Certainly, I am suffering from Frequent urination.","OK, do you have Ankle pain?",O O O O O O B-Symptom I-Symptom O,,,,,,
+"True, I have got it.",You might have Dyshidrosis.,O O O O O O O,,,,,,
+"Disease: Dyshidrosis, Group: 12",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,11948,,,,,,,
+"Hello doctor, I have got Skin swelling. It has become red due to itchiness. I am having a dance competition tomorrow. I am afraid that I will miss that because of it. How to cure this?","OK, I wish you didn't have to go through these. Tell me, have you got Skin rash too?",O O O O O O B-Symptom I-Symptom O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O,,,Allergy,"The conversation between the patient and the doctor is about the patient's skin swelling and redness due to itchiness. The patient expresses concern about missing a dance competition due to the condition. The doctor asks about other symptoms such as skin rash, itching of skin, and swollen eye. Based on the symptoms, the doctor diagnoses the patient with an allergy.","The patient is experiencing skin swelling, redness, and itching, and is concerned about missing a dance competition due to this medical issue.","The doctor suspects an allergy as the cause of the patient's skin swelling, redness and itching, and checks whether the patient has a skin rash, itchy skin, and swollen eyes."
+"Right, doctor.",Do you have Itching of skin?,O O O O,,,,,,
+"So true, I have got Itching of skin.",Have you got Swollen eye? Please show me your eye.,O O O O O O B-Symptom I-Symptom I-Symptom O,,,,,,
+Please check $S1_1_1.jpg$.,You seem to be suffering from Allergy.,O O B-Symptom O,Swollen eye,Severe,,,,
+"Disease: Allergy, Group: 19",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,8096,,,,,,,
+"Good afternoon doctor, I have got Pain in eye. I have redness in eye and it has become heavy. How to get relieve?","OK, do you face any vision problem? is you also suffering from Lacrimation?",O O O O O O O B-Symptom I-Symptom I-Symptom O O O O O O O O O O O O O O O O O,,,Ectropion,"The patient is experiencing pain, redness and heaviness in the patient's eye. the patient are also suffering from lacrimation, abnormal movement of eyelid and have an eyelid lesion or rash. The doctor suspects the patient might have Ectropion and categorizes it under Group 7 diseases.","The patient's primary medical concern is pain in the patient's eye, accompanied by redness, heaviness, lacrimation, abnormal movement of the eyelid, and an eyelid lesion or rash, which may indicate the presence of Ectropion.",The doctor suspects ectropion based on the patient's symptoms.
+"Yes, I am.",Have you observed Abnormal movement of eyelid?,O O O O O,,,,,,
+"Exactly, I have trouble with it.","Alright, have you got Eyelid lesion or rash?",O O O O O O O,,,,,,
+"Please, see $S74_3_1.jpg$.",You might have Ectropion.,O O B-Symptom O,Eyelid lesion or rash,Mild,,,,
+"Disease: Ectropion, Group: 7",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,2348,,,,,,,
+"Hi doctor, I have got Pain in eye. I can't move my eyelids. I have redness and swelling also.","That must have been causing hindrance in your vision. Let me know further symptoms, have you got Mass on eyelid?",O O O O O O B-Symptom I-Symptom I-Symptom O O O O O O O O O O O O O O,,,Cyst of the eyelid,"The patient complained about pain, redness, and swelling in the patient's eye, and difficulty moving the patient's eyelids. The doctor asked further questions about the symptoms and determined that the patient had a mass, skin growth, and possibly an eyelid lesion or rash. The patient also reported diminished vision. Based on these symptoms, the doctor diagnosed the patient with a cyst of the eyelid.","The patient's main medical concern is pain, redness, swelling, and inability to move the patient's eyelids, with possible presence of skin growth and eyelid lesion/rash, and diminished vision.",The doctor diagnoses the patient with a cyst of the eyelid based on the patient's symptoms.
+"Sure, I have that.",Do you have Skin growth?,O O O O O O,,,,,,
+"Literally, I have Skin growth.",Have you got Eyelid lesion or rash?,O O O O B-Symptom I-Symptom O,,,,,,
+I am not entirely sure about it. Please see $S74_2_1.jpg$.,Have you noticed Diminished vision?,O O O O O O O O O O B-Symptom O,Eyelid lesion or rash,Moderate,,,,
+"Yes, I have got it.","According to symptoms, you might have Cyst of the eyelid.",O O O O O O O,,,,,,
+"Disease: Cyst of the eyelid, Group: 7",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,14400,,,,,,,
+"Doctor, please see my eye $S5_3_1.jpg$.",I can see slight redness in your eye. Please answer a few questions so I can estimate its most probable cause. Have you got Diminished vision?,O O O O O O B-Symptom O,Eye redness,Mild,Aphakia,"The patient has come to the doctor with redness in the patient's eye and diminished vision. The doctor asks them a few questions including whether the patient have seen any spots or clouds in the patient's vision. Based on the patient's responses, the doctor suggests that the most probable cause of the symptoms is aphakia.","The patient is experiencing eye redness and diminished vision with spots or clouds, and the most probable cause is aphakia.","The doctor suspects the patient may have aphakia due to redness and diminished vision, and asks about seeing spots or clouds."
+"Literally, I am suffering from Diminished vision.",Have you seen Spots or clouds in vision?,O O O O O O B-Symptom I-Symptom O,,,,,,
+You is right.,You might have Aphakia.,O O O O,,,,,,
+"Disease: Aphakia, Group: 7",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,3969,,,,,,,
+"Doctor, please see my skin $S4_2_1.jpg$.",Have you got Wrist pain?,O O O O O O B-Symptom O,Skin growth,Moderate,Ganglion cyst,The patient came to see the doctor about a skin growth and also reported wrist pain. The doctor suggested that the symptoms point to a ganglion cyst as the possible cause of the wrist pain. The disease is classified under Group 13.,"The patient's main medical concern is a skin growth, but the patient also have wrist pain.",The doctor diagnoses the patient with a ganglion cyst based on the patient's symptoms of wrist pain.
+"Exactly, I am suffering from Wrist pain.",Your symptoms indicate that you have Ganglion cyst.,O O O O O O B-Symptom I-Symptom O,,,,,,
+"Disease: Ganglion cyst, Group: 13",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,23794,,,,,,,
+"Hello doctor, please see $S5_3_3.jpg$. What is wrong with me? Is it serious?","Your eyes is slightly red. Let me dig deeper to know its actual cause. So, have you observed Spots or clouds in vision?",O O O O O B-Symptom O O O O O O O O O O O,Eye redness,Mild,Diabetic retinopathy,"The patient is experiencing redness in the eyes and is concerned about the seriousness of the issue. The doctor asks more questions and checks for symptoms such as spots, clouds, and Lacrimation. Based on the symptoms, the doctor diagnoses the patient with Diabetic retinopathy, which is a serious eye disease.",The patient's main medical concern is eye redness and whether it is serious.,"The doctor suspects the patient has diabetic retinopathy due to redness, spots in vision, and lacrimation."
+"So true, doctor.",is you suffering from Lacrimation?,O O O O O,,,,,,
+"True, I have got Lacrimation.",You might have Diabetic retinopathy.,O O O O O B-Symptom O,,,,,,
+"Disease: Diabetic retinopathy, Group: 4",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,27060,,,,,,,
+"Hello doctor, I am suffering from Fatigue.","Alright, have you felt Dizziness?",O O O O O O O B-Symptom O,,,Graves disease,"The patient reports experiencing fatigue and dizziness, as well as foot or toe swelling. Based on these symptoms, the doctor diagnoses the patient with Graves disease.",The patient's main medical concern is fatigue with accompanying symptoms of dizziness and foot/toe swelling.,"The doctor diagnoses Graves disease based on symptoms of fatigue, dizziness, and foot/toe swelling."
+"True, I have Dizziness too.",Have you got Foot or toe swelling?,O O O O B-Symptom O O,,,,,,
+"Please, see $S50_3_1.jpg$.",Your symptoms indicate that you have Graves disease.,O O O B-Symptom O,Foot or toe swelling,Mild,,,,
+"Disease: Graves disease, Group: 4",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,20852,,,,,,,
+"Doctor, I have got Skin lesion. What could be its cause?",Skin lesion can occur due to many reasons. Let me investigate so that I can help you provide the best solution to it. Have you got Skin rash too?,O O O O O B-Symptom I-Symptom O O O O O O O,,,Acariasis,"The conversation is between a patient and a doctor discussing the patient's skin lesion and possible causes. The doctor suggests investigating the issue further to provide the best solution. The patient mentions a possible skin rash and the doctor suspects the patient may have Acariasis, a skin disease caused by mites.",possible cause of skin lesion and rash.,The doctor suggests investigating the cause of the skin lesion and suspects that the patient might have Acariasis due to the patient's symptoms.
+Not fully sure. Please examine it. $S31_1_8.jpg$.,I think you might have Acariasis.,O O O O O O O O B-Symptom O ,Skin rash,Severe,,,,
+"Disease: Acariasis, 1",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,10463,,,,,,,
+"Doctor, I am facing Ear pain.","I see, is you having Diminished hearing?",O O O O O B-Symptom I-Symptom  O,,,,,,
+Nowadays I am having Diminished hearing.,"Ok, let me see. Do you have Plugged feeling in ear?",O O O O B-Symptom I-Symptom  O,,,,,,
+True.,"I see what you is going through, do you have Redness in ear?",O O ,,,,,,
+Not sure please check $S22_2_1.jpg$,Based on your symptoms you have Conductive hearing loss.,O O O O B-Symptom,Redness in ear,Moderate,Conductive hearing loss,"The conversation is between a patient and a doctor regarding the patient's ear pain and diminished hearing. The doctor questions the patient about the patient's symptoms, specifically asking about a plugged feeling and redness in the ear. Based on the symptoms, the doctor diagnoses the patient with conductive hearing loss.","The patient is experiencing ear pain and diminished hearing with a plugged feeling in the ear, possibly indicating conductive hearing loss.",The doctor assesses the patient's symptoms and diagnoses them with conductive hearing loss.
+"Disease: Conductive hearing loss, Group: 7",,,,,,,,
+,,,,,,,,
+Patient,Doctor,Symptom,Visual,Severity,Intent,Summary,MCS,DI
+Dialogue ID,29766,,,,,,,
+Good Morning Doctor. I have some problem in my skin $S31_1_11.jpg$,"I see, is you having Itching of skin?",O O O O O O O O B-Symptom,Skin rash,Severe,Dyshidrosis,"The patient tells the doctor the patient have a skin problem with itching and possibly acne or pimples, along with ankle pain. The doctor suspects the patient has Dyshidrosis based on those symptoms.",The patient's key medical concern is skin rash with itching and ankle pain.,"The doctor diagnoses the patient with Dyshidrosis based on the patient's symptoms of skin rash, itching, acne/pimples, and ankle pain."
+I do have Itching of skin.,"I see, is you having Acne or pimples?",O O O B-Symptom I-Symptom I-Symptom O,,,,,,
+True.,"That must be irritating, do you have Ankle pain?",O O ,,,,,,
+Yes I have that.,Based on your symptoms you have Dyshidrosis.,O O O O O,,,,,,
+"Disease: Dyshidrosis, Group: 12",,,,,,,,
