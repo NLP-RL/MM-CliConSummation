@@ -28,4 +28,14 @@ Towards Knowledge Infused Multi-modal Clinical Conversation Summarization
 
     python L32.py (visual feature at layer 3 and knolwdge feature at 2)
 
+### Citation information:
+
+@inproceedings{tiwari2023experience,
+  title={Experience and Evidence are the eyes of an excellent summarizer! Towards Knowledge Infused Multi-modal Clinical Conversation Summarization},
+  author={Tiwari, Abhisek and Saha, Anisha and Saha, Sriparna and Bhattacharyya, Pushpak and Dhar, Minakshi},
+  booktitle={Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
+  pages={2452--2461},
+  year={2023}
+}
+
     
